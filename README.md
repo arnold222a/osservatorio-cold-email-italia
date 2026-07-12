@@ -11,12 +11,14 @@ Benchmark di reply rate per 8 macro-settori, calcolati su **723 campagne reali**
 | `data/benchmark_settori_2026.json` | Benchmark completi con metadati e metodologia |
 | `data/benchmark_settori_2026.csv` | Stessi dati in CSV (settore, campagne, clienti distinti, email inviate, risposte, reply rate %) |
 
-## Numeri chiave del dataset completo
+## Numeri chiave del dataset
 
-- Reply rate mediano per campagna: **1,71%**
+Percentili calcolati sulle 556 campagne strutturate (almeno 500 email inviate):
+
+- Reply rate mediano per campagna: **1,71%** (primo quartile 1,05%, terzo 2,59%)
 - Top 10% delle campagne: oltre **3,79%**
 - Campagne sotto l'1%: **24,1%**
-- Bounce rate medio: 3,14%
+- Bounce rate medio dell'intero dataset: 3,14%
 
 ## Metodologia
 
