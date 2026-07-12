@@ -1,0 +1,83 @@
+{
+ "nome": "Benchmark reply rate per settore, cold email B2B Italia",
+ "generato": "2026-07-12",
+ "fonte": "smartlead_mega.csv (723 campagne, workspace Smartlead Clientium)",
+ "periodo": "2024-2026",
+ "metodologia": {
+  "aggregazione": "reply rate medio ponderato = somma risposte / somma email inviate per macro-settore",
+  "attribuzione": "settore dedotto dal nome cliente/campagna con mappa esplicita; campagne non mappabili escluse, mai stimate",
+  "soglie": "inclusi solo settori con almeno 3 campagne e almeno 5.000 email inviate",
+  "campagne_totali_dataset": 723,
+  "email_totali_dataset": 3685033,
+  "risposte_totali_dataset": 70771,
+  "campagne_mappate": 507,
+  "email_mappate": 2629996
+ },
+ "settori": [
+  {
+   "settore": "marketing/agenzie",
+   "campagne": 160,
+   "clienti_distinti": 10,
+   "email_inviate": 1089768,
+   "risposte": 23534,
+   "reply_rate_pct": 2.16
+  },
+  {
+   "settore": "manifatturiero/meccanica",
+   "campagne": 75,
+   "clienti_distinti": 9,
+   "email_inviate": 141700,
+   "risposte": 2905,
+   "reply_rate_pct": 2.05
+  },
+  {
+   "settore": "software/IT",
+   "campagne": 94,
+   "clienti_distinti": 13,
+   "email_inviate": 481228,
+   "risposte": 8528,
+   "reply_rate_pct": 1.77
+  },
+  {
+   "settore": "energia/incentivi",
+   "campagne": 36,
+   "clienti_distinti": 4,
+   "email_inviate": 448831,
+   "risposte": 7857,
+   "reply_rate_pct": 1.75
+  },
+  {
+   "settore": "HR/paghe",
+   "campagne": 23,
+   "clienti_distinti": 2,
+   "email_inviate": 29072,
+   "risposte": 504,
+   "reply_rate_pct": 1.73
+  },
+  {
+   "settore": "sanità/dentale",
+   "campagne": 5,
+   "clienti_distinti": 1,
+   "email_inviate": 29241,
+   "risposte": 422,
+   "reply_rate_pct": 1.44
+  },
+  {
+   "settore": "formazione",
+   "campagne": 73,
+   "clienti_distinti": 7,
+   "email_inviate": 315026,
+   "risposte": 4342,
+   "reply_rate_pct": 1.38
+  },
+  {
+   "settore": "fintech/welfare",
+   "campagne": 41,
+   "clienti_distinti": 4,
+   "email_inviate": 95130,
+   "risposte": 851,
+   "reply_rate_pct": 0.89
+  }
+ ],
+ "licenza": "CC-BY 4.0 — citare: Clientium, Osservatorio Outbound Italia, https://clientium.it/osservatorio/"
+}
